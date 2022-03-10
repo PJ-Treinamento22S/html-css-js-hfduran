@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PiuPiwer</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="main-container">
+            <div class="content">
+                <div class="side-bar">
+                    <div class="menu">
+                        <img src="images/logo.svg" alt="logo">
+                        <nav>
+                            <ul>
+                                <li class="active"><span><img src="images/feed.svg" alt="feed"> Feed</span></li>
+                                <li><span><img src="images/explore.svg" alt="explore"> Explorar</span></li>
+                                <li><span><img src="images/favorites.svg" alt="favorites"> Favoritos</span></li>
+                                <li><span><img src="images/friends.svg" alt="friends"> Amigos</span></li>
+                                <li><span><img src="images/profile.svg" alt="profile"> Perfil</span></li>
+                            </ul>
+                        </nav>
+                        <input type="text" name="search" id="search" placeholder="Procurar no PiuPiwer">
+                    </div>
+                    <button>Piar!</button>
+                    <div class="profile-widget">
+                        <img src="images/avatar.jpg" alt="avatar">
+                        <strong>Henrique Duran
+                        <span>@petrrusko</span></strong>
+                        <img class= "more" src="images/more.svg" alt="more">
+                    </div>
+                </div>
+
+                <div class="feed">
+                    <h1>Feed</h1>
+                    <span id="alert">Seu piu não pode ter mais de 140 caracteres</span>
+                    <div class="write">
+                        <div class="img-and-input">
+                            <img src="images/avatar.jpg" alt="avatar">
+                            <textarea rows="2" name="piu" id="txt" placeholder="No que você está pensando?"></textarea>
+                        </div>
+                        <div class="counter-and-button">
+                            <span id="counter">0/140</span>
+                            <button>Piar!</button>
+                        </div>
+                    </div>
+
+                    <ul class="pius">
+                    </ul>
+
+                    <script src="../javascript/script.js"></script>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
