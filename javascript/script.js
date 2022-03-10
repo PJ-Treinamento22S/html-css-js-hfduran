@@ -60,9 +60,9 @@ function addPiu(img, name, user, text, date){
     
     let nLikes = Math.floor(Math.random() * 10);
     nLikes = String(nLikes);
-    piuLike.innerHTML = '<img src="images/heart.svg">';
+    piuLike.innerHTML = '<img src="../images/heart.svg">';
     piuNLikes.innerHTML = nLikes;
-    piuHighlight.innerHTML = '<img src="images/highlight.svg">';
+    piuHighlight.innerHTML = '<img src="../images/highlight.svg">';
 
     piuInfo.classList.add("info");
     piuActions.classList.add("actions");
