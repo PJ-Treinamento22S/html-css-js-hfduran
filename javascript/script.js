@@ -139,7 +139,7 @@ getData();
     $piarButton.addEventListener('click', () => {
         let today = getDate();
         if($txt.value.length < 141 && $txt.value != ""){
-            addPiu("images/avatar.jpg", "Henrique Duran", "petrrusko", $txt.value, today);
+            addPiu("../images/avatar.jpg", "Henrique Duran", "petrrusko", $txt.value, today);
             $txt.value = "";
             counter.innerHTML = "0/140";
         }
